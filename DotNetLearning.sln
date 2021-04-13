@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Attribute", "Attribute", "{9B3380F0-F5D8-4960-94AA-B6ED8F48A50A}"
+	ProjectSection(SolutionItems) = preProject
+		参考网址.txt = 参考网址.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeLearning", "AttributeLearning\AttributeLearning.csproj", "{AA7D4AB3-419C-44A2-BDB4-F3B382088025}"
 EndProject
