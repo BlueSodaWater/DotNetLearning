@@ -2,5 +2,4 @@ Attribute
 https://www.cnblogs.com/jiangxifanzhouyudu/p/11107734.html
 
 Configuration
-https://www.cnblogs.com/zoe-zyq/p/13433262.html
-https://www.cnblogs.com/zoe-zyq/p/13533131.html
+https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&album_id=1452666298261225478&__biz=MzU1MzYwMjQ5MQ==&uin=&key=&devicetype=Windows+10+x64&version=6302017f&lang=zh_CN&ascene=7&fontgear=2
