@@ -8,13 +8,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Attribute", "Attribute", "{
 		参考网址.txt = 参考网址.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeLearning", "AttributeLearning\AttributeLearning.csproj", "{AA7D4AB3-419C-44A2-BDB4-F3B382088025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeLearning", "AttributeLearning\AttributeLearning.csproj", "{AA7D4AB3-419C-44A2-BDB4-F3B382088025}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeDemo", "AttributeDemo\AttributeDemo.csproj", "{0FC5CEC6-30C0-4443-A611-D346E6C7BF4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeDemo", "AttributeDemo\AttributeDemo.csproj", "{0FC5CEC6-30C0-4443-A611-D346E6C7BF4F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{7C97E30D-7084-481A-9F60-00290F5A5036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationLearning", "ConfigurationLearning\ConfigurationLearning.csproj", "{43B6FA65-D4EC-4288-BD15-B410D08ECBC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationLearning", "ConfigurationLearning\ConfigurationLearning.csproj", "{43B6FA65-D4EC-4288-BD15-B410D08ECBC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationDemo", "ConfigurationDemo\ConfigurationDemo.csproj", "{068629DC-1F08-44E4-A7BB-4990240E952A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionsDemo", "OptionsDemo\OptionsDemo.csproj", "{CA0D9EA4-6966-4063-BDAC-5A0201AA36D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +38,14 @@ Global
 		{43B6FA65-D4EC-4288-BD15-B410D08ECBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43B6FA65-D4EC-4288-BD15-B410D08ECBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43B6FA65-D4EC-4288-BD15-B410D08ECBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068629DC-1F08-44E4-A7BB-4990240E952A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068629DC-1F08-44E4-A7BB-4990240E952A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068629DC-1F08-44E4-A7BB-4990240E952A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068629DC-1F08-44E4-A7BB-4990240E952A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA0D9EA4-6966-4063-BDAC-5A0201AA36D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0D9EA4-6966-4063-BDAC-5A0201AA36D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0D9EA4-6966-4063-BDAC-5A0201AA36D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0D9EA4-6966-4063-BDAC-5A0201AA36D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +54,7 @@ Global
 		{AA7D4AB3-419C-44A2-BDB4-F3B382088025} = {9B3380F0-F5D8-4960-94AA-B6ED8F48A50A}
 		{0FC5CEC6-30C0-4443-A611-D346E6C7BF4F} = {9B3380F0-F5D8-4960-94AA-B6ED8F48A50A}
 		{43B6FA65-D4EC-4288-BD15-B410D08ECBC2} = {7C97E30D-7084-481A-9F60-00290F5A5036}
+		{068629DC-1F08-44E4-A7BB-4990240E952A} = {7C97E30D-7084-481A-9F60-00290F5A5036}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9859B6DD-C9BC-4A7D-906D-3E7A90E8D425}
