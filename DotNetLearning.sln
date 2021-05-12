@@ -22,19 +22,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionsDemo", "OptionsDemo\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddlewareDemo", "MiddlewareDemo\MiddlewareDemo.csproj", "{C27AF37C-E4E0-489D-AE1F-11453B6BFE57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOPConsoleDemo", "AOPConsoleDemo\AOPConsoleDemo.csproj", "{F5D1DC79-FA42-4D93-91DF-7FA14D6E5AEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOPConsoleDemo", "AOPConsoleDemo\AOPConsoleDemo.csproj", "{F5D1DC79-FA42-4D93-91DF-7FA14D6E5AEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MemoryCache", "MemoryCache", "{05507C1D-E137-47A6-B830-CEB3D5195EC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryCacheConsoleDemo", "MemoryCacheConsoleDemo\MemoryCacheConsoleDemo.csproj", "{064AE0D1-6F80-4815-8B25-8CA793A2FF7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryCacheConsoleDemo", "MemoryCacheConsoleDemo\MemoryCacheConsoleDemo.csproj", "{064AE0D1-6F80-4815-8B25-8CA793A2FF7D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Filter", "Filter", "{464063E8-B0FB-4AE5-9954-9FE3FF40928D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcFilterDemo", "MvcFilterDemo\MvcFilterDemo.csproj", "{C0CCC0E3-D474-4AA8-86D0-9DD22A112C36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcFilterDemo", "MvcFilterDemo\MvcFilterDemo.csproj", "{C0CCC0E3-D474-4AA8-86D0-9DD22A112C36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorDemo", "MediaRDemo\MediatorDemo.csproj", "{87AE6407-B552-4B71-A157-F21B50BE7091}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorDemo", "MediaRDemo\MediatorDemo.csproj", "{87AE6407-B552-4B71-A157-F21B50BE7091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRConsoleDemo", "MediaRConsoleDemo\MediatRConsoleDemo.csproj", "{A66BE02E-1729-4D65-90A9-E7DDA2C43D97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRConsoleDemo", "MediaRConsoleDemo\MediatRConsoleDemo.csproj", "{A66BE02E-1729-4D65-90A9-E7DDA2C43D97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HostingStartUp", "HostingStartUp", "{DE0574B1-67A0-4B07-A2E3-55D87AD4E829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostStartupLib", "HostStartupLib\HostStartupLib.csproj", "{ED480D8F-6465-4E55-8789-A1089E17102E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostStartUpWebApi", "HostStartUpWebApi\HostStartUpWebApi.csproj", "{077E8067-C16D-451B-B690-312B77814232}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +92,14 @@ Global
 		{A66BE02E-1729-4D65-90A9-E7DDA2C43D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A66BE02E-1729-4D65-90A9-E7DDA2C43D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A66BE02E-1729-4D65-90A9-E7DDA2C43D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED480D8F-6465-4E55-8789-A1089E17102E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED480D8F-6465-4E55-8789-A1089E17102E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED480D8F-6465-4E55-8789-A1089E17102E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED480D8F-6465-4E55-8789-A1089E17102E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077E8067-C16D-451B-B690-312B77814232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077E8067-C16D-451B-B690-312B77814232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077E8067-C16D-451B-B690-312B77814232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077E8067-C16D-451B-B690-312B77814232}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +111,8 @@ Global
 		{068629DC-1F08-44E4-A7BB-4990240E952A} = {7C97E30D-7084-481A-9F60-00290F5A5036}
 		{064AE0D1-6F80-4815-8B25-8CA793A2FF7D} = {05507C1D-E137-47A6-B830-CEB3D5195EC9}
 		{C0CCC0E3-D474-4AA8-86D0-9DD22A112C36} = {464063E8-B0FB-4AE5-9954-9FE3FF40928D}
+		{ED480D8F-6465-4E55-8789-A1089E17102E} = {DE0574B1-67A0-4B07-A2E3-55D87AD4E829}
+		{077E8067-C16D-451B-B690-312B77814232} = {DE0574B1-67A0-4B07-A2E3-55D87AD4E829}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9859B6DD-C9BC-4A7D-906D-3E7A90E8D425}
